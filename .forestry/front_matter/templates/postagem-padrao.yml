@@ -64,3 +64,5 @@ fields:
     max: 
     labelField: 
   label: Botões de Ação
+pages:
+- _posts/teste2.md
