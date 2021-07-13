@@ -4,28 +4,40 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
-- type: text
-  name: sub_title
-  label: sub_title
-- type: text
-  name: excerpt
-  label: excerpt
+  label: Título
+  config:
+    required: true
+- name: sub_title
+  type: text
+  config:
+    required: false
+  label: Subtítulo
 - type: text
   name: excerpt_separator
-  label: excerpt_separator
+  default: "<!--more-->"
+  label: Separador
+  hidden: true
 - type: file
   name: image
-  label: image
+  label: Hero Image
 - type: list
   name: categories
-  label: categories
+  label: Categorias
+  config:
+    use_select: false
+    source:
+      type: simple
+      section: ''
+    min: 1
 - type: list
   name: tags
-  label: tags
-- type: list
-  name: elements
-  label: elements
+  label: Tags
+  config:
+    use_select: false
 - type: datetime
   name: last_modified_at
-  label: last_modified_at
+  default: now
+  label: Última Atualização
+  config:
+    required: true
+  hidden: true
