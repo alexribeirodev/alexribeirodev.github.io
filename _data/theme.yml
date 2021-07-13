@@ -1,0 +1,56 @@
+# Theme Skin
+skin: night # default, night, plum, sea, soft, steel
+
+# Theme Text
+t:
+  skip_links: "Pular links"
+  skip_primary_nav: "Pular para a navegação primária"
+  skip_content: "Ir para o conteúdo"
+  skip_footer: "Pular para o rodapé"
+  menu: "Menu"
+  search: "Pesquisar"
+  site_search: "Pesquisa de sites"
+  results_found: "Resultado(s) encontrado(s)"
+  search_placeholder_text: "Digite o seu termo de pesquisa..."
+  home: "Início"
+  newer: "Mais recente"
+  older: "Mais velho"
+  email: "Email"
+  subscribe: "Se inscrever"
+  read_more: "Ler Mais"
+  posts: "Postagens"
+  page: "Página"
+  of: "de"
+  min_read: "min de leitura"
+  present: "Present"
+  cv_awards: "Prêmios"
+  cv_summary_contact: "Contato"
+  cv_summary_contact_email: "Email"
+  cv_summary_contact_phone: "Telefone"
+  cv_summary_contact_website: "Website"
+  cv_location: "Localização"
+  cv_education: "Educação"
+  cv_education_courses: "Cursos"
+  cv_interests: "Interesses"
+  cv_languages: "Idiomas"
+  cv_publications: "Publicações"
+  cv_references: "Referências"
+  cv_skills: "Skills"
+  cv_volunteer: "Voluntário"
+  cv_work: "Experiência"
+
+# Google Fonts
+google_fonts:
+  - name: "Fira Sans"
+    weights: "400,400i,600,600i"
+
+# Link to specific internal pages in the navigation.
+# Create a custom list to override the default setting of including links to all
+# pages that have a `title`. Add raw page paths in the order you'd like.
+
+navigation_pages:
+  - sobre.md
+  - cv.md
+  - posts.md
+  - tags.md
+  - categorias.md
