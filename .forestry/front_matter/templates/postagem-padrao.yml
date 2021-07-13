@@ -64,5 +64,9 @@ fields:
     max: 
     labelField: 
   label: Botões de Ação
+- name: comments
+  type: boolean
+  label: Habilitar Comentários
+  default: true
 pages:
 - _posts/2021-07-13-teste2.md
