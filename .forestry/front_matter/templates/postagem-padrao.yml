@@ -41,3 +41,26 @@ fields:
   config:
     required: true
   hidden: true
+- name: actions
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: true
+    label: Label
+  - name: icon
+    type: text
+    config:
+      required: false
+    label: Nome do Icone
+  - name: url
+    type: text
+    config:
+      required: true
+    label: URL
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Botões de Ação
